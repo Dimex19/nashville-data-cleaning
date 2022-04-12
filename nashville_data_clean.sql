@@ -127,9 +127,9 @@ Order by PropertyAddress
 
 
 Select *
-From PortfolioProject.dbo.NashvilleHousing
+From Public."nashville_housing"
 
 
-ALTER TABLE PortfolioProject.dbo.NashvilleHousing
+ALTER TABLE Public."nashville_housing"
 DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate
 
